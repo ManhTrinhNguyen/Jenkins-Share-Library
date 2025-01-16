@@ -1,7 +1,7 @@
 #!/user/bin/env groovy
 
 def call() {
-  echo "Building Application for $BRANCH_NAME"
+  echo "Building Application ...."
   sh 'mvn package'
 }
 
